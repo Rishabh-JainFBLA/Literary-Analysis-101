@@ -1,0 +1,234 @@
+#welcome
+{
+    text-align:center;
+    font-family: 'Shantell Sans', cursive;
+    color:white;
+    background-color: black;
+    background-image: url(welcomebg.jpg);
+}
+#disclaimer
+{
+    color:grey; 
+}
+#logos
+{
+    height:400px;
+    
+}
+.navbar
+{
+    width:100%;
+    display:flex;
+    align-items:center;
+    position:sticky;
+    top:0px;
+    background-position: center;
+    background-size: cover;
+    }
+nav{
+    flex:1;
+    text-align: right;
+    
+}
+nav ul li{
+    list-style:none;
+    display:inline-block;
+    margin-right:30px;
+}
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:15px;
+}
+.logo
+{
+    width:100px;
+    cursor:pointer;
+    margin:30px 0;
+}
+#introduction_page, #together-pg, #body1,#conc-bd, #body2
+{
+    text-align: left;
+    background-color: black;
+    color:white;
+    font-family:'Shantell Sans', cursive;
+    margin-left: 3%;
+    margin-right:3%;
+    text-align: justify;
+    
+}
+#welcome
+{
+    margin-left:3%;
+    margin-right:3%;
+
+}
+#welcome-btn
+{
+    font-family:'Shantell Sans', cursive;
+    background-color: white;
+    margin-top:0%;
+    margin-left:57%;
+}
+#tog-hdr,  #finish-intro, #body1-hdr,#stry2-sy-c, #stry2-mn-c, #stry2-mt-c,#conc-state,#think-conc,#conc-tog,#thesis-conc,#conc, #together-hdr
+{
+    text-align: center;
+    
+}
+
+#claim-hook
+{
+    color:grey;
+}
+#quote-ex, #stat-ex
+{
+    color:yellow;
+}
+#slogan
+{
+    color:pink;
+}
+#music
+{
+    margin-left:5%;
+    margin-top:0.5%;
+    width:130px;
+    height:37px;
+    border-color: white;
+    border-style:dashed;
+    border-radius:35%;
+    
+}
+audio::-webkit-media-controls-play-button,
+     audio::-webkit-media-controls-panel {
+     background-color:rgb(24, 24, 155);    
+     }
+#introduction_page
+{
+    background-image: url(intro.jpg);
+}
+#body1
+{
+    background-image: url(body1.jpg);
+}
+#together-pg
+{
+    background-image: url(together.webp);
+}
+#body2
+{
+    background-image: url(body2.jpg);
+}
+#conc-bd
+{
+    background-image:url(conc.jpg) ;
+}
+#writing
+{
+    width:500px;
+    float:right;
+    margin-top:5%;
+    margin-right:3%;
+}
+#hookimg
+{
+    width:300px;
+    float:right;
+}
+#book, #type
+{
+    width:500px;
+    float:right;
+    margin-top:10%
+}
+#flip, #fliping
+{
+    width:500px;
+    float:right;
+    margin-right:5%;
+    margin-top:5%;
+}
+#typing, #typer, #reader, #look, #flipper, #flips
+{
+    width:600px;
+    float:right;
+    margin-right:3%;
+    margin-top:6%;
+}
+#flips, #look {
+    padding: 5px,5px;
+}
+#look
+{
+    padding: 5px,5px;
+}
+#flippy
+{
+    width:800px;
+    float:right;    
+}
+#typers, #concgif, #think
+{
+    float:right;
+    width:450px;
+    margin-right:5%;
+}
+#end
+{
+    float:right;
+    width:450px;
+    margin-right:10%;
+    padding: 5px,5px;
+}
+#mtr-c,#cnct-tr,#conc-c
+{
+    text-align: center;
+
+}
+#cnct-c
+{
+    margin-left:16%;
+}
+#top-c
+{
+    margin-left:22%;
+}
+#back-info, #stry1mt-c, #stry1-mn-c, #text1-c
+{
+    text-align: center;
+}
+#what_to_need
+{
+    text-align: center;
+}
+#hook-hdr 
+{
+    text-align: center;
+}
+#thesis-hdr
+{
+    text-align: center;
+}
+#intro-hdr
+{
+   margin-left:36%;
+}
+#el1, #el2
+{
+   text-align: center;
+}
+#finish-c
+{
+    text-align: center;
+}
+#line
+{
+    border:dashed;
+}
+.navbar{
+  position:sticky;
+  top:0px;
+  background-position: center;
+  background-size: cover;
+  -webkit-transform: translate3d(0,0,0);
+}
